@@ -1,0 +1,18 @@
+[package]
+name = "parsnip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bnf = { git = "https://github.com/drbh/bnf.git", branch = "main" }
+
+# TODO: re explore tree-sitter implementation as a feature
+# tree-sitter = "0.20.10"
+# tree-sitter-json = "0.20.1"
+
+# [build-dependencies]
+# cc = "*"
+
+# standard crate data is left out
+[dev-dependencies]
+rand = "0.8.4"
